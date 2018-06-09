@@ -1,0 +1,16 @@
+P10 MediaPlayer project 
+
+This is phase I of MediaPlayer project 
+This software currently being built and required to have ArtistTracker functionality
+There are 3 class files under artistinfo Artist.java , ArtistTracker.java and App Runner
+
+Each class has description in the file on the top
+Start from Artist.java , then go to ArtistsTracker 
+you can test your methods locally on AppRunner class with main method
+
+Eventually run junit test ArtistTrackerTest.java to see result before uploading to webcat 
+
+We have done this a showed solution in class , however this is a good time to review 
+and pass the test to practice more !!!
+
+Good Luck!

@@ -1,0 +1,59 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AppRunner<MediaPlayerProject_ClassProject>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "artistinfo.AppRunner",
+            "projectName": "MediaPlayerProject_ClassProject",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Version<MediaPlayerProject_ClassProject>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "junit.runner.Version",
+            "projectName": "MediaPlayerProject_ClassProject",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestRunner<MediaPlayerProject_ClassProject>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "junit.textui.TestRunner",
+            "projectName": "MediaPlayerProject_ClassProject",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JUnitCore<MediaPlayerProject_ClassProject>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "org.junit.runner.JUnitCore",
+            "projectName": "MediaPlayerProject_ClassProject",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Attach)",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": 0
+        }
+    ]
+}

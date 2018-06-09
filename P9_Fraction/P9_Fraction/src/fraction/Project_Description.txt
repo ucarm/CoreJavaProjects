@@ -1,0 +1,36 @@
+/**
+ * Programming Project 9: Fraction
+ * 
+ * In this project, we want to implement a Fraction class, which represents fractional numbers such as 3/4.
+ 
+  Write code for the following steps. 
+  
+  
+  1. Create a public class called Fraction under the fraction package, and name the file Fraction.java
+  
+  
+  2. Create a private instance variable numerator of type int;
+  
+  3. Create a private instance variable denominator of type int;
+  
+  4. Add a public instance setter method "void setNum(int n)", which sets the value of numerator to n.
+  
+  5. Add a public instance method "int getNum" that returns the value of numerator;
+  
+  
+  6. Add a public instance setter method "void setDen(int d)", which sets the value of denominator to d.
+  
+  7. Add a public instance method "int getDen" that returns the value of denominator;
+  
+  8. Add a constructor that takes no argument, and sets numerator to 0, and sets denominator to 1.
+  
+  9. Add a constructor that takes one int argument n, and sets numerator to n, sets denominator to 1.
+  
+  10. Add a constructor that takes two int arguments n and d, and sets numerator to n, sets denominator to d.
+  
+  11. Add a public method toString, which returns the fraction as String. The format of the string is as follows:
+       1) if numerator is 0, then return "0"
+       2) if denominator is 1, then return the numerator as a string. For examples 5/1 is printed as "5".
+       3) return numerator/denominator For example: numerator =3 , denominator=4, return "3/4"
+ 
+ */

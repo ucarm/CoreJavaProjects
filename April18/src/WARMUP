@@ -1,0 +1,41 @@
+WARM UP 
+
+1, Create a new project 
+
+2, Create 3 packages called shapes , audio , videos
+
+3, Create 3 classes :    Rectangle, Song ,  Movie
+
+4, Create 2 private instance field for rectangle , height , width as double 
+
+	getters and setters , 2 args constructors 
+
+
+
+5, Create 2 private instance field for Song , name , Author as String 
+
+	getters and setters , 2 args constructors 
+
+
+
+6, Create 2 private instance field for Movie , name : String , length as double 
+
+	getters and setters , 2 args constructors 
+
+	
+
+Create another packge called tracker
+
+ Create a class called Printer with main method 
+
+ Create a static void method called printShapes 
+
+ it has one parameter called shape : type is Rectangle
+
+ inside method : print out length and height of Rectangle
+
+ 
+
+ inside main method : Create 1 instance of each Classes Rectangle, Song ,  Movie
+
+ call your printShapes method 
