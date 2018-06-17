@@ -91,6 +91,18 @@ public class BooksController implements BooksManager{
     }
   }
 
+@Override
+public List<Book> getPaperbackBooks() {
+	// TODO Auto-generated method stub
+	return null;
+}
+
+@Override
+public List<Book> getAudioBooks() {
+	// TODO Auto-generated method stub
+	return null;
+}
+
   
 }
 
