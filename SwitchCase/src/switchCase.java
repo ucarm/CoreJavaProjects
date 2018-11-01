@@ -1,10 +1,13 @@
 
 public class switchCase {
+	
+private static String name="";
+private static int day =1;
 
 	public static void main(String[] args) {
-
-		int day =1;
-		String name="";
+		chooseDay(day);
+	}
+	private static void chooseDay(int num) {
 		switch(day) {
 			case 0:
 				name+= "Sunday"; break;
@@ -20,6 +23,8 @@ public class switchCase {
 				name+= "Friday"; break;
 			case 6:
 				name+= "Saturday"; break;
+			default: 
+				name+="Friday";
 		}
 		System.out.println("Day is: "+name);
 	}
